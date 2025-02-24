@@ -1,7 +1,8 @@
 # OOP
 
 - To map with real world scenarios, we started using objects in code. This is called *Object Oriented Programming.*
-- Class is a blueprint for creating objects.
+- Everything we create in Python is object. We can manipulate the data that object contains using in-built methods.
+- Class is a blueprint for creating objects. Class defines how an object should look like.
 - Creating class
 `class Student:`
     `name = "Mirza"`
@@ -12,6 +13,8 @@
 ## __init__ Function
 
 - *Constructor:* All classes have a function called `__init__()`, which is always executed when the class is being initiated.
+- init is a special method in Python, allows us to set up some data fields or data for the class. It only runs once when object is instantiated.
+- By defining an init, we can add data fields to an object, which allows us to initialize object.
 - Creating class
 `class Student:`
     `def __init__(self, fullname):`
