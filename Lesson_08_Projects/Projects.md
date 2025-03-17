@@ -1,0 +1,30 @@
+# Project List
+
+- Password Generator
+- DHCP Listener using Scapy
+- Inject Code into HTTP Response in Network
+- MAC Address Changer
+- Extract saved WiFi Passwordss
+- Extract Chrome Cookies
+- HTTP Proxy
+- Use Shodan API
+- Extract Chrome Passwords
+- SYN Flooding Attack
+- SQL Injection Scanner
+- Crack PDF Files
+- Brute Force ZIP File Passwords
+- WiFi Scanner using Scapy
+- XSS Vulnerability Scanner
+- Brute-Force SSH Servers
+- Hide Data in Images
+- Subdomain Scanner
+- Extract Website Links
+- Encrypt and Decrypt Files
+- Reverse Shell
+- Sniff HTTP Packets in Network using Scapy
+- Disconnect Devices from WiFi using Scapy
+- DNS Spoof Attack using Scapy
+- Keylogger
+- Detect ARP Spoof Attack using Scapy
+- ARP Spoofer using Scapy
+- Network Scanner using Scapy
