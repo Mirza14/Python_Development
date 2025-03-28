@@ -8,4 +8,4 @@ API_KEY = input ("Please enter your shodan API Key: ")
 api = shodan.Shodan(API_KEY)
 
 TV = api.search('Samsung Smart TVs')
-print(TV)
+country = api.protocols({'http'})
