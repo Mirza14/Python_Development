@@ -1,12 +1,15 @@
-#Import Modules
+#Import Modules - Argument Parser
 import argparse
 
 #Initializing the parser
-parser = argparse.ArgumentParser()
+#Variable called parser and set it equal to return value of argparse.ArgumentParser. A constructor for a class called arugment parser that comes with Python itself.
+parser = argparse.ArgumentParser(description="Meow like a cat")
 
-#Positional Arguments
-parser.add_argument("hey")
+#Positional Arguments. Method in the parser object. Configure this Argument Parseer to know about specific command line arguments
+parser.add_argument("-n", default=1, type=int, help="Number of times to meow")
 
-# Parse the arguments
+#Parse the command line arguments. parse_args() is going to look at sys.argv
+#args is the object returned by parse_args()
 args = parser.parse_args()
-print(args.hey)
+for _ in range(args.n):
+    print("Meow")

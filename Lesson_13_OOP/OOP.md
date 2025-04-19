@@ -2,7 +2,12 @@
 
 - To map with real world scenarios, we started using objects in code. This is called *Object Oriented Programming.*
 - Everything we create in Python is object. We can manipulate the data that object contains using in-built methods.
-- Class is a blueprint for creating objects. Class defines how an object should look like.
+- Why Class? To create own custom data types and give them names. A Class is like a mold that you can define and give a name and when you use that mold/blueprint you get types of data that are designed exactly as you want.
+- In short, Classes allow you to invent your own data types in Python and give them a name.
+- Class is a blueprint for creating objects (Pieces of data objects). Class defines how an object should look like. Anytime you create a Class you are creating an object.
+- You create objects from classes. An object is when you use that mold/buleprint to build a specific house
+- Classes have attributes or properties that allow you to specify values inside of them.
+- Class is definition of a new data type and object is instances of classes. Class can store attributes inside of it using a (.dot) notation and you can access those same attributes.
 - Creating class
 `class Student:`
     `name = "Mirza"`

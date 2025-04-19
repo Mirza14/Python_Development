@@ -1,4 +1,4 @@
 import os
 
-test = os.system('ls -l')
+test = os.system('whoami')
 print(test)
