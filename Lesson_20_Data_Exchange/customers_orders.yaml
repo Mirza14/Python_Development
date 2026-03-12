@@ -1,0 +1,68 @@
+company: GlobalMart
+generated_on: 2025-01-10
+
+customers:
+  - customer_id: C001
+    name: Aisha Khan
+    email: aisha.khan@example.com
+    country: Ireland
+    is_active: true
+
+    orders:
+      - order_id: O1001
+        order_date: 2024-12-15
+        status: Delivered
+        items:
+          - product_id: P101
+            product_name: Wireless Mouse
+            category: Electronics
+            price: 29.99
+            quantity: 2
+          - product_id: P205
+            product_name: Laptop Stand
+            category: Accessories
+            price: 45.50
+            quantity: 1
+        total_amount: 105.48
+
+  - customer_id: C002
+    name: Liam O'Connor
+    email: liam.oconnor@example.com
+    country: Canada
+    is_active: false
+
+    orders:
+      - order_id: O1002
+        order_date: 2024-11-20
+        status: Cancelled
+        items: []
+        total_amount: 0
+
+  - customer_id: C003
+    name: Riya Sharma
+    email: riya.sharma@example.com
+    country: India
+    is_active: true
+
+    orders:
+      - order_id: O1003
+        order_date: 2024-12-01
+        status: Delivered
+        items:
+          - product_id: P330
+            product_name: Noise Cancelling Headphones
+            category: Electronics
+            price: 199.99
+            quantity: 1
+        total_amount: 199.99
+
+      - order_id: O1004
+        order_date: 2024-12-28
+        status: Shipped
+        items:
+          - product_id: P402
+            product_name: Mechanical Keyboard
+            category: Electronics
+            price: 120.00
+            quantity: 1
+        total_amount: 120.00

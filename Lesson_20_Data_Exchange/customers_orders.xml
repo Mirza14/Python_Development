@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company name="GlobalMart" generated_on="2025-01-10">
+
+    <customers>
+
+        <customer id="C001" is_active="true">
+            <name>Aisha Khan</name>
+            <email>aisha.khan@example.com</email>
+            <country>Ireland</country>
+
+            <orders>
+                <order id="O1001" status="Delivered">
+                    <order_date>2024-12-15</order_date>
+                    <items>
+                        <item>
+                            <product_id>P101</product_id>
+                            <product_name>Wireless Mouse</product_name>
+                            <category>Electronics</category>
+                            <price>29.99</price>
+                            <quantity>2</quantity>
+                        </item>
+                        <item>
+                            <product_id>P205</product_id>
+                            <product_name>Laptop Stand</product_name>
+                            <category>Accessories</category>
+                            <price>45.50</price>
+                            <quantity>1</quantity>
+                        </item>
+                    </items>
+                    <total_amount>105.48</total_amount>
+                </order>
+            </orders>
+        </customer>
+
+        <customer id="C002" is_active="false">
+            <name>Liam O'Connor</name>
+            <email>liam.oconnor@example.com</email>
+            <country>Canada</country>
+
+            <orders>
+                <order id="O1002" status="Cancelled">
+                    <order_date>2024-11-20</order_date>
+                    <items />
+                    <total_amount>0</total_amount>
+                </order>
+            </orders>
+        </customer>
+
+        <customer id="C003" is_active="true">
+            <name>Riya Sharma</name>
+            <email>riya.sharma@example.com</email>
+            <country>India</country>
+
+            <orders>
+                <order id="O1003" status="Delivered">
+                    <order_date>2024-12-01</order_date>
+                    <items>
+                        <item>
+                            <product_id>P330</product_id>
+                            <product_name>Noise Cancelling Headphones</product_name>
+                            <category>Electronics</category>
+                            <price>199.99</price>
+                            <quantity>1</quantity>
+                        </item>
+                    </items>
+                    <total_amount>199.99</total_amount>
+                </order>
+
+                <order id="O1004" status="Shipped">
+                    <order_date>2024-12-28</order_date>
+                    <items>
+                        <item>
+                            <product_id>P402</product_id>
+                            <product_name>Mechanical Keyboard</product_name>
+                            <category>Electronics</category>
+                            <price>120.00</price>
+                            <quantity>1</quantity>
+                        </item>
+                    </items>
+                    <total_amount>120.00</total_amount>
+                </order>
+            </orders>
+        </customer>
+
+    </customers>
+
+</company>
